@@ -25,3 +25,9 @@ if(palindroma(parola)){
 // Generiamo un numero random (sempre da 1
 // a 5) per il computer.
 // Sommiamo i due numeri e dichiariamo chi ha vinto
+
+
+let scelta = prompt("scegli pari o dispari");
+
+let numero = parseInt(prompt("inserisci un numero da 1 a 5")); 
+
