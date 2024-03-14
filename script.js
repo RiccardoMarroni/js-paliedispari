@@ -2,7 +2,7 @@
 // Creare una funzione per capire se la parola inserita è palindroma
 
 
-var parola = "radars";
+var parola = prompt("Inserisci la parola");  
 
 //  funzione 
 function palindroma(parola){
@@ -14,3 +14,8 @@ function palindroma(parola){
 	return true;
 }
 
+if(palindroma(parola)){
+	console.log(parola + " è una parola palindroma.");
+} else {
+	console.log(parola + " non è una parola palindroma.");
+}
